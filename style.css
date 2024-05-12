@@ -1,0 +1,264 @@
+header{
+    background-color: black;
+    padding: 20px 100px;
+    height: 30px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+nav{
+    float: left;
+
+}
+nav a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+.soc img{
+    height: 40px;
+    
+}
+.soc{
+    float: right;
+}
+.banner{
+    clear: both;
+}
+.weather{
+    padding: 30px 0px;
+    text-align: center;
+    background-color:#0cdf70;
+}
+.weather h2{
+    font-size: 70px;
+    color: white;
+}
+.weather p{
+    font-size: 30px;
+    color: aliceblue;
+}
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ *{
+    padding: 0px;
+    margin: 0px;
+ } 
+ .ready{
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url("https://irkutsk.bonodono.ru/upload/iblock/370/kvetvlyi0qcv6dou11mgmdsip6wihrn5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .ready h1{
+    font-size: 82px;
+    width: 500px;
+    margin: auto;
+ }
+ .ready a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #0cdf70;
+    border: 2px solid #0cdf70;
+    padding: 10px 15px;
+    
+    border-radius: 40px;
+ }
+ .ready p{
+    margin-bottom: 50px;
+ }
+ .ready a:hover{
+    color:black;
+    background-color: #0cdf70;
+ }
+ .cards{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+ }
+ .card{
+    
+    margin: 20px;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(138, 176, 169);
+ }
+ .card h2{
+    text-align: center;
+ }
+ .card1{
+    background-image: url("https://static.wixstatic.com/media/ea71bb_bd31415cb96b4b6fa27279462a58cb06~mv2_d_4347_3375_s_4_2.jpg/v1/fill/w_540,h_550,fp_0.59_0.29,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_bd31415cb96b4b6fa27279462a58cb06~mv2_d_4347_3375_s_4_2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+ .card2{
+   background-image: url("https://media.istockphoto.com/id/637714684/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BB%D1%8B%D0%B6%D0%BD%D0%B8%D0%BA-%D0%B2-%D0%B3%D0%BE%D1%80%D0%B0%D1%85.jpg?s=612x612&w=is&k=20&c=OePtukTVD1h7ssq_Kdpb8kFBhQZv1KdCrYJIFsE-Suo=");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.card3{
+      background-image: url("https://ridertrip.ru/wp-content/uploads/2021/02/zc046353.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+}
+.chat{
+   width:150px ;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+}
+.chat img{
+   width: 100%;
+}
+.banner2{
+   clear: both;
+}
+.brands{
+   padding: 200px 0px;
+   text-align: center;
+   background-image: url("https://masterpiecer-images.s3.yandex.net/f1cfb9278c8511eebb9ef6f8c1ba65ae:upscaled");
+   background-size: cover;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.brands h1{
+   font-size: 82px;
+   width: 500px;
+   margin: auto;
+   text-decoration: underline;
+}
+.brands p{
+   font-size: larger;
+   color: aliceblue;
+   text-align: center;
+   width: 700px;
+}
+.logo{
+   padding: 70px 0px;
+   text-align: center;
+   background-color: black;
+   height: auto;
+}
+.logo img{
+   height: 200px;
+}
+.new{
+   padding: 50px 0px;
+   background-color: white;
+   height: auto;
+   text-align: center;
+}
+.new h1{
+   color: black;text-transform: uppercase;
+   text-decoration: underline;
+   font-size: 82px;
+}
+.cards1{
+   padding: 50px;
+
+}
+.card{
+   margin: 20px;
+   width: 20%;
+   height: 400px;
+   background-color: rgb(138, 176, 169);
+   
+}
+.card h2{
+   text-align: left;
+   
+}
+.card4{
+   background-image: url("https://static.wixstatic.com/media/ea71bb_f463100cb8f642cb973387f4ecbaa550~mv2_d_3556_4805_s_4_2.jpg/v1/fill/w_431,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_f463100cb8f642cb973387f4ecbaa550~mv2_d_3556_4805_s_4_2.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.card5{
+ background-image: url("https://static.wixstatic.com/media/ea71bb_2707fb52b0da4e99a67593a2df5798a5~mv2_d_3556_4805_s_4_2.jpg/v1/fill/w_431,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_2707fb52b0da4e99a67593a2df5798a5~mv2_d_3556_4805_s_4_2.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+.card6{
+   background-image: url("https://static.wixstatic.com/media/ea71bb_0243e2c288644cc6ae9ff87284325371~mv2_d_3619_4888_s_4_2.jpg/v1/fill/w_431,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_0243e2c288644cc6ae9ff87284325371~mv2_d_3619_4888_s_4_2.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.card7{
+  background-image: url("https://static.wixstatic.com/media/ea71bb_b640a419b6804912a59ccd6faca1b45b~mv2_d_3650_4931_s_4_2.jpg/v1/fill/w_431,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_b640a419b6804912a59ccd6faca1b45b~mv2_d_3650_4931_s_4_2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.instagram{
+   clear: both;
+}
+.follow{
+   padding: 150px 0px;
+   text-align: center;
+   background-color: black;
+   height: auto;
+}
+.follow h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+   text-transform: inherit;
+}  
+.form{
+   clear: both;
+}
+.box{
+   padding: 150px 0px;
+   text-align: center;
+   background-color: black;
+   height: auto;
+}
+.box h1{
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   text-transform: inherit;
+}  
+input[type=submit]{
+   width: 20%;
+   padding: 15px;
+   margin: 20px 0px 30px;
+   background-color: rgb(255, 251, 0);
+
+}
+input[type=email]{
+   width: 20%;
+   padding: 15px;
+   margin: 20px 0px 30px;
+   
+
+}
+input[type=submit]:hover{
+   background-color: paleturquoise;
+}
+fieldset{
+   padding: 10px;
+}
+.box p{
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   text-transform: inherit;
+}
+.card{
+   position: relative;
+}
+.card h2{
+   position: absolute;
+   left: 10px;
+   top: 10px;
+}
